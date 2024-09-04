@@ -1,7 +1,7 @@
                 OVERWORKED LICENSE (OWL) v1.0 
                   Version 1, September 2024 
 
-        Copyright (C) 2024 Micr0byte <micr0@micr0.dev> 
+Copyright (C) 2024 Micr0byte <micr0@micr0.dev> 
 
 dude idfk if i maintain this shit at all its some kind of miracle. 
 like i can barely maintain myself let alone some software i made out

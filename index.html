@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OVERWORKED LICENSE (OWL)</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #e0e0e0;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            opacity: 0;
+            animation: fadeIn 1s ease forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        .container {
+            padding: 2rem;
+        }
+
+        h1 {
+            color: #ff6347;
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        a {
+            color: #8fbc8f;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #ff6347;
+        }
+
+        pre {
+            white-space: pre-wrap;
+            text-align: left;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        .license {
+            text-align: left;
+            margin: 0 auto;
+            max-width: 800px;
+            background-color: #1e1e1e;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            animation: slideIn 1s ease-out forwards;
+            /* animation-delay: 0.5s; */
+        }
+
+        .terminal {
+            display: block;
+            font-size: 1.5rem;
+            color: #ff6347;
+            margin: 1rem;
+        }
+
+        .cursor {
+            display: inline-block;
+            animation: blink 1s ease infinite;
+        }
+
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .footer {
+            margin-top: 2rem;
+            font-size: 0.8rem;
+        }
+
+        .quote {
+            font-size: 1.5rem;
+            font-style: italic;
+            color: #8fbc8f;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>OVERWORKED LICENSE (OWL)</h1>
+        <p class="quote">"you knew what you were getting into."</p>
+        <div class="license">
+            <div class="terminal">> ls</div>
+            <pre>LICENSE.txt README.md</pre>
+            <div class="terminal">> cat LICENSE.txt</div>
+            <pre>
+                OVERWORKED LICENSE (OWL) v1.0 
+                  Version 1, September 2024 
+
+Copyright (C) 2024 Micr0byte <micr0@micr0.dev> 
+
+dude idfk if i maintain this shit at all its some kind of miracle. 
+like i can barely maintain myself let alone some software i made out
+of desperation. like just fucking do what you want with this shit i 
+do not care. try not to be evil with it i guess, but no matter what 
+i write here some jackass will find a way to ruin it.  
+
+                       OVERWORKED LICENSE 
+    TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION 
+
+    0. permission is hereby granted to use, copy, modify, merge, publish, 
+distribute, sublicense, and/or sell copies of the software, subject to the 
+following conditions. do whatever the fuck you want: 
+
+    1. this license is to apply to all derivative works. no exceptions. 
+don't try to weasel your way out of it.
+
+    2. the original author’s name must be left intact in all copies or 
+substantial portions of the software. because, ya know, respect and shit.
+
+    3. there's absolutely no warranty of any kind. the software is provided 
+"as is" without any promise it’ll work, be fit for a particular purpose, 
+or anything else. if it breaks, you fix it. tough luck, bitch.
+
+    4. don’t use the software for evil. you know what evil is. don’t pretend 
+you don’t. if you’re using this in a dystopian megacorp or some sketchy-ass 
+government project, just stop.
+
+    5. if you distribute copies or substantial portions of the software, you 
+have to retain this license in all copies or substantial portions. not optional.
+
+    6. by contributing to this software, you agree to license your contributions 
+under the same terms as this license. no take-backsies.
+
+OVERWORKED LICENSE (OWL) v1.0 
+Copyright (C) 2024 Micr0byte <micr0@micr0.dev> </pre>
+            <div class="terminal">> git clone https://github.com/micr0-dev/owl-license.git</div>
+            <pre>Cloning into 'owl-license'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 3 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (6/6), done.</pre>
+            <div class="terminal">> echo "download .txt here"</div>
+            <p><a href="./owl-license.txt">download .txt here</a></p>
+            <div class="terminal">> whois micr0byte</div>
+            <pre>
+Registrant Name:       Micr0byte
+Email:                 micr0@micr0.dev
+GitHub:                https://github.com/micr0-dev
+            </pre>
+            <div class="terminal">> <div class="cursor">█</div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>© 2024 Micr0byte <a href="mailto:micr0@micr0.dev">micr0@micr0.dev</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
